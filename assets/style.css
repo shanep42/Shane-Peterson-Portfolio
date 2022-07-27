@@ -1,0 +1,50 @@
+* {
+    background-color: lightslategrey;
+}
+
+header {
+    display: flex;
+    border: solid black 2px;
+}
+
+header h1 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#my-work {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.section-heading {
+    transform: rotate(-90deg);
+    margin-top: 0;
+    border-bottom: solid black 5px;
+}
+
+.box {
+    height:200px;
+    width:200px;
+    border: 5px dotted black;
+    display:flex;
+    padding: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    background-image: url(https://via.placeholder.com/25);
+}
