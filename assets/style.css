@@ -32,10 +32,15 @@ main {
     flex-wrap: wrap;
 }
 
+section {
+    display:flex;
+}
+
 .section-heading {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg);    How to rotate text? Harder than I thought */
     margin-top: 0;
-    border-bottom: solid black 5px;
+    padding-right: 10px;
+    border-right: solid black 2px;
 }
 
 .box {
@@ -48,3 +53,5 @@ main {
     flex-wrap: wrap;
     background-image: url(https://via.placeholder.com/25);
 }
+
+figure {}
