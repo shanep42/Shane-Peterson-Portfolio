@@ -2,66 +2,17 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+![screenshot](./assets/screenshot.png)
 
-## Table of Contents (Optional)
+https://shanep42.github.io/Shane-Peterson-Portfolio/
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+This is my personal portfolio of development projects, to help catalogue and collect them in one place where than can easily be showcased and shared.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Of course, in creating a showcase of website design AS a website, presentation is also content. It needed to (attempt to) strike a balance between practical delivery of information and aesthetics. Another realization taht followed this one in making my first portfolio is this: I am not yet much of a developer, but I am even less of a designer.
 
-## Installation
+However, I learned a lot as a result of realizing this. Troubleshooting CSS issues may entail adding temporary borders to things, just to see where they begin or end. But, if you happen to know you are so design-deficient that it will not be obvious to you later that those borders are ugly and obviously never intended to stick around after layout was done - well, you had better be sure to remember or, failing that, to leave detailed comments for yourself.
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Some of this code is superfluous or roundabout. Sometimes I got to the right result with a combination of experiments when one choice, properly implemented, would have worked. Some empty space exists because it's easier to watch positioning change when the distances thing move is larger.
 
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+I'm sure my code raises questions to the trained eye. But maybe, for a starter portfolio and a first from-scratch attempt, that's good. After all, my own eye is a little more trained every day, and when I look back to this project to update it, I hope it raises questions, because most of my breakthrough moments thus far begin not with a "Eureka!" but with a "Now, why the heck..."
