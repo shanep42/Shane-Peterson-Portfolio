@@ -1,7 +1,7 @@
 :root {
     --hero-font-color: white;
     --background-color-dark: #1c1d25;
-    --button-color: coral;
+    --button-color: #6472d6;
     --button-pushed-color: #898989;
     --Horiseon-blue: #2a607c;
 }
@@ -52,6 +52,9 @@ a {
 footer {
     height: 500px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 nav {
@@ -111,10 +114,22 @@ ul {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        margin: 50px;
+    }
+}
+
 .project-card {
     width: 250px;
     height: 500px;
-    background-color:ivory;
+    border-radius: 25px 0px 25px 0px;
+    background-color:coral;
     justify-content: center;
     align-content: center;
     /* border: 1px solid black; */
@@ -126,20 +141,8 @@ ul {
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;
-    object-position: 25% 0;
-    margin: 0;
-    padding: 0;
+    border-radius: 35px;
 }
-
-.project-card p {
-    background-color: yellow;
-    color: black;
-    font-weight: bold;
-    /* Maybe I am just tired, but I cannot figure out why these don't move to the bottom of their container <div> */
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
 
 .first-project {
     width: 500px;
@@ -161,3 +164,9 @@ ul {
     color: var(--hero-font-color)
 }
 
+#resume-button {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
