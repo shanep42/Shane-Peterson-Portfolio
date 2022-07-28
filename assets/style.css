@@ -1,57 +1,78 @@
-* {
-    background-color: lightslategrey;
-}
-
-header {
-    display: flex;
-    border: solid black 2px;
-}
-
-header h1 {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-}
-
-header li {
-    padding: 10px;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#my-work {
-    display:flex;
-    flex-wrap: wrap;
+:root {
+    --hero-font-color: white;
+    --button-color: coral;
+    --button-pushed-color: #898989;
 }
 
 section {
-    display:flex;
+    height: 500px;
+    background-color: white;
+    border: solid black 3px;
+    color: black;
 }
 
-.section-heading {
-    /* transform: rotate(-90deg);    How to rotate text? Harder than I thought */
-    margin-top: 0;
-    padding-right: 10px;
-    border-right: solid black 2px;
+.hero {
+    background-color: #1c1d25;
+    height: 100vw;
+    color: var(--hero-font-color);
+    font-size: 40px;
 }
 
-.box {
-    height:200px;
-    width:200px;
-    border: 5px dotted black;
+.hero-image {
+    margin: 60px;
+}
+
+.hero-area {
+    margin-left: 80px;
+    margin-bottom: 100px;
     display:flex;
-    padding: 20px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--hero-font-color);
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 800px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color:var(--button-color);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: var(--button-pushed-color);
+}
+
+.social-media {
     margin: 20px;
-    flex-wrap: wrap;
-    background-image: url(https://via.placeholder.com/25);
+    display: flex;
+    flex-direction: column;
 }
-
-figure {}
