@@ -1,25 +1,34 @@
 :root {
     --hero-font-color: white;
+    --background-color-dark: #1c1d25;
     --button-color: coral;
     --button-pushed-color: #898989;
+    --Horiseon-blue: #2a607c;
 }
 
 section {
     height: 800px;
     background-color: white;
-    border: solid black 3px;
+    /* border: solid black 3px; */
     color: black;
 }
 
 .hero {
-    background-color: #1c1d25;
-    height: 100vw;
+    background-color: var(--background-color-dark);
+    height: 60vw;
     color: var(--hero-font-color);
     font-size: 40px;
 }
 
+.name-and-logo {
+    display: flex;
+}
+
 .hero-image {
     margin: 60px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
 }
 
 .hero-area {
@@ -105,5 +114,50 @@ ul {
 .project-card {
     width: 250px;
     height: 500px;
-    border: 1px solid black;
+    background-color:ivory;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction: column;
 }
+
+.project-card img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-position: 25% 0;
+    margin: 0;
+    padding: 0;
+}
+
+.project-card p {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    /* Maybe I am just tired, but I cannot figure out why these don't move to the bottom of their container <div> */
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.first-project {
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 20px white;
+    background-color: var(--Horiseon-blue);
+}
+
+.first-project img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#my-work {
+    background-color: var(--background-color-dark)
+}
+
+#my-work h2,h3 {
+    color: var(--hero-font-color)
+}
+
